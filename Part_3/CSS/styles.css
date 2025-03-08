@@ -1,0 +1,47 @@
+body{
+    margin: 20px;
+    border: 2px solid;
+}
+
+p{
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.posisi-relatif{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: red;
+}
+
+.posisi-absolut{
+    position: absolute;
+    top:250px;
+    left: 50px;
+    background-color: yellow;
+}
+
+.posisi-fixed{
+    position: fixed;
+    top: 400px;
+    left: 0px;
+    background-color: green;
+}
+
+.posisi-sticky-1{
+    height: 60px;
+    padding: 3px;
+    position: sticky;
+    top: 0px;
+    background-color: blue;
+}
+
+.posisi-sticky-2{
+    height: 60px;
+    padding: 3px;
+    position: sticky;
+    /* kalau mau dibawah tinggal bottom: ..px; */
+    top: 60px;
+    background-color: blue;
+}

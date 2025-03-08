@@ -1,0 +1,102 @@
+*{
+    font-family: Tahoma;
+    text-align: justify;
+}
+
+h1{
+    font-family: TImes;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h3 span{
+    font-family: Arial;
+}
+
+/* merubah span */
+span {
+    color:blue;
+}
+
+/* child selector */
+h3>span {
+    color:crimson;
+}
+
+/* inheritance */
+/* span dalam heading */
+
+h3{
+    font-size: 12px;
+    padding:10px;
+}
+
+h3>span{
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+/* color */
+h2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h3{
+    background-color: rgba(100,25,0,0.2);
+}
+
+h1{
+    background-color: #a45959;
+    padding:10px;
+    text-align: center;
+    text-shadow: 10px 5px 5px black;
+    word-spacing: 2em;
+}
+
+body{
+    background-color: rgb(220, 238, 238);
+    font-weight: normal;
+}
+
+.credit{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.tautan{
+    font-family: Verdana;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a.tautan:hover{
+    color:deeppink;
+}
+
+a.tautan:active{
+    color:darkcyan;
+}
+
+a.tautan:visited{
+    color:darkgreen;
+}
+
+.paragraf1{
+    height: 100%;
+    width:100%;
+    background-color: #bbbbaa;
+}
+
+.paragraf2{
+    height:100%;
+    width:100%;
+    background-color: aqua;
+}

@@ -1,0 +1,78 @@
+*{
+    font-family: tahoma;
+}
+
+h1{
+    color: darkblue;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(30, 49, 83);
+    padding:5px;
+    justify-content: center;
+}
+
+.header:hover{
+    background-color: rgb(116, 155, 176);
+}
+.header_title{
+    color: cornsilk;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.judul{
+    background-color: rgb(75, 75, 92);
+    color:aliceblue;
+    width: auto;
+    height: fit-content;
+    padding: 10px;
+    margin: 2px;
+}
+
+.credit{
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.penulis{
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+.tanggal{
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+.isi{
+    background-color: rgb(169, 190, 190);
+    padding: 10px;
+}
+
+th, td{
+    background-color: bisque;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.isidantabel{
+    background-color: aqua;
+}
+
+.konten{
+    max-width: 500px;
+    margin: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#header{
+    text-align: center;
+}
+
+#konten{
+    overflow: auto;
+}
+
+#nav, #highlight, #footer{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.artikel{
+    background-color: burlywood;
+}
+
+#konten h3{
+    text-align: center;
+}
+
+#highlight img{
+    width: 30%;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+
+.kolom1, .kolom2, .kolom3{
+    width: 30%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding: 0.66%;
+}
+
+.kolom1{
+    margin-left: 0px;
+}
+
+.kolom3{
+    margin-right: 0px;
+}

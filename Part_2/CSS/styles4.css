@@ -1,0 +1,53 @@
+p{
+    /* supaya paragraf nya jadi nyambung inline */ 
+    display: inline;
+}
+
+b{
+    display: block;
+}
+
+*{
+    font-family: tahoma;
+}
+
+span{
+    background-color: rgba(255,200,0,0.5);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+span.inline{
+    display: inline;
+}
+
+span.block{
+    display: block;
+    /* ukuran mengikuti span */
+}
+
+span.inline_block{
+    display: inline-block;
+}
+
+.flex_container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    border:1px solid;
+}
+
+.flex_item{
+    background-color: azure;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid;
+}

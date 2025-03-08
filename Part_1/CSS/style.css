@@ -1,0 +1,48 @@
+/* Universal selector */
+*{
+    font-family: Arial;
+}
+
+/* type selector */
+h1{
+    color:blue;
+    font-family: Vernada;
+}
+h2{
+    color: darkkhaki;
+}
+p{
+    font-family: Arial;
+    color: green;
+    font-size: 18px;
+}
+
+/* class selector (tipe.class) */ 
+li.sarapan{
+    color: chartreuse;
+}
+
+/* id selector */
+#maksi{
+    color:blanchedalmond;
+}
+
+/* child selector (tipe setelah tipe secara langsung) */
+p>b {
+    color:aquamarine;
+}
+
+/* decendant selector (tipe setelah tanpa langsung tetep dianggap)*/
+p b {
+    color:blue;
+}
+
+/* adjacent sibling selector (setelah tipe tertentu secara langsung) */
+p+h2{
+    color:deeppink;
+}
+
+/* general sibling selector (semua di tipe itu setelah tipe tertentu)*/
+h2~p{
+    font-family:'Tahoma';
+}

@@ -1,0 +1,49 @@
+*{
+    font-family: Arial;
+}
+
+
+/* background color */
+body{
+    background-color: #efefef;
+    color:#efefef;
+}
+
+#artikel{
+    padding: 20px;
+    background-color: #a0a0a0;
+}
+
+h1{
+    background-color: rgb(215, 61, 169);
+    padding: 20px;
+}
+
+h2{
+    background-color: rgba(215, 61, 169, 1);
+    padding: 20px;
+}
+
+p.para1{
+    padding:10px;
+    background-color: hsl(250,100%,50%); /*(hue, saturasi, lightness)*/
+}
+
+p.para2{
+    background-color: hsla(250,100%,50%,0.5);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

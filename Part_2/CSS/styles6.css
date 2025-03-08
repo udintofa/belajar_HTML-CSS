@@ -1,0 +1,130 @@
+
+body{
+    font-family: verdana;
+    color: #223311;
+}
+
+table{
+    width: 600px;
+    /* border-spacing: 10px; */
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+
+th{
+    border-top: 1px solid darkorange;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: 80%;
+}
+
+tr.genap{
+    background-color: #efefef;
+}
+
+tr:hover{
+    background-color: greenyellow;
+}
+
+h1{
+    color: crimson;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+ul{
+    width: 400px;
+}
+
+ul li{
+    margin: 10px;
+    list-style-position: inside;
+}
+
+/* form */
+input{
+    font-size: 120%;
+    background-color: #efefef;
+    color: darkslategray;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 35px;
+    display: block;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 8px;
+}
+
+input:focus{
+    background-color: #ffffff;
+}
+
+input#email{
+    background-image: url(../Images/email.png);
+}
+
+input#instagram{
+    background-image: url(../Images/instagram.png);
+}
+
+input#web{
+    background-image: url(../Images/web.png);
+}
+
+input#submit{
+    color: #efefef;
+    text-shadow: 0px 1px 1px #ffffff;
+    background-color: darkslategray;
+    padding: 10px 20px;
+}
+
+input#submit:hover{
+    color: orange;
+    background-color: indigo;
+    cursor: pointer;
+}
+
+input#submit:active{
+    color: lawngreen;
+    background-color: lightcoral;
+}
+
+div{
+    height: 500px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.img-large{
+    width: 300px;
+    height: 300px;
+}
+.img-medium{
+    width: 100px;
+    height: 100px;
+}
+.img-small{
+    width: 50px;
+    height: 50px;
+}
+
+.img-align-right{
+    float:right;
+    margin-left: 10px;
+}
+.img-align-left{
+    float:left;
+    margin-right: 10px;
+}
+.img-align-center{
+    display: block;
+    margin: 0px auto;
+}
+
+

@@ -1,0 +1,203 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    font-size: 36px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 240px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.content{
+    width: 100px;
+    height: 40px;
+    border: 20px solid red;
+    padding: 10px;
+    margin: 40px;
+}
+
+.border1{
+    border: 2px solid brown;
+    border-bottom-width: 8px;
+}
+
+#atas_solid{
+    border: 4px;
+    border-top-style: solid;
+    color: red;
+}
+
+#bawah_solid{
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: cyan;
+}
+
+#bawah_dotted{
+    border-bottom-color: brown;
+    border-bottom-width: 10px;
+    border-bottom-style: dotted;
+}
+
+#bawah_double{
+    border-bottom-color: brown;
+    border-bottom-width: 10px;
+    border-bottom-style: double;
+    border-top-style: dashed;
+    border-top-width: 8px;
+    border-left-style: groove;
+    border-left-width: 5px;
+}
+
+.border2{
+    border-width: 20px 5px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.border3{
+    /* atas kanan bawah kiri */
+    border-width: 5px 10px 15px 20px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+
+.padding{
+    color: darkgreen;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+}
+
+.padding2{
+    background-color: burlywood;
+    /* atas-bawah kiri-kanan */
+    padding: 20px 50px;
+    border:inherit;
+}
+
+.padding3{
+    background-color: blanchedalmond;
+    /* atas kiri-kanan bawah */
+    padding: 5px 20px 50px;
+    border:inherit;
+}
+
+.padding4{
+    background-color: blue;
+    /* atas kanan bawah kiri */
+    padding: 5px 10px 15px 20px;
+}
+
+/* padding block */
+/* padding inline */
+h1{
+    color: darkblue;
+    background-color: bisque;
+    border: 1px solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.margin1{
+    color: darkblue;
+    background-color: bisque;
+    border: 2px solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    /* untuk semua sisi */
+    margin: 10px;
+}
+
+.margin2{
+    /* atas-bawah kiri-kanan */
+    margin: 10px auto;
+}
+
+.margin3{
+    /* atas kiri-kanan bawah */
+    margin: 10px 20px 30px;
+}
+
+.margin4{
+    /* atas kanan bawah kiri*/
+    margin: 10px 20px 30px auto;
+}
+
+/* geser nilai di bagian kanan aja */
+/* margin-right: 10px */
+
+td{
+    background-color: aquamarine;
+}
+
+td.deskripsi{
+    background-color: bisque;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+/* overflow */
+h2,h3{
+    font-family: Arial;
+    color: dodgerblue;
+}
+p.satu{
+    height: 100px;
+    width:200px;
+    overflow: hidden;
+}
+p.dua{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+
+/* border, padding, margin */
+
+div.box2{
+    width: fit-content;
+    height: fit-content;
+    background-color: gainsboro;
+
+    /* margin */
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    /* padding */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    /* border */
+    border: 4px solid black;
+}
+
+p.hello b{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border: 4px solid papayawhip;
+}
+
+p.hello{
+    background-color: coral;
+    width: fit-content;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
